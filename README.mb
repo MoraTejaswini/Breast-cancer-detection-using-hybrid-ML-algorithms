@@ -8,3 +8,57 @@ Dimensionality reduction using PCA (Principal Component Analysis) to retain impo
 Classification using Support Vector Machine (SVM), achieving an accuracy of 96%.
 
 The model identifies key risk indicators like cell shape, mitosis, and chromatin structure. Additional factors like age and family history are acknowledged as important. This study highlights the potential of machine learning to support early diagnosis and improve patient outcomes.
+
+## How to Run
+
+1. Open the notebook: `breast_cancer_detection.ipynb` in [Google Colab](https://colab.research.google.com/) or Jupyter
+2. Upload the dataset (`breast_cancer_data.csv`) if required
+3. Run each cell step-by-step
+4. View the confusion matrix and accuracy at the end
+
+---
+
+## Results (Short Summary)
+
+- **Accuracy**: 96%
+- **Techniques Used**: PCA + SVM
+- **Cross Validation**: 10-fold
+- 📄 [Detailed Results](docs/Results.md)
+
+---
+
+## Dataset
+
+- **Source**: [Wisconsin Breast Cancer Dataset – Kaggle](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
+- **Instances**: 569
+- **Attributes**: 32
+- **Classes**: Benign (0), Malignant (1)
+
+---
+
+## Technologies Used
+
+- Python
+- Scikit-learn
+- NumPy, Pandas, Matplotlib
+- Jupyter Notebook / Google Colab
+
+---
+
+## Authors
+
+- Mora Tejaswini Reddy
+- P. Mamatha, M. Krishnamai, Ch. Sruthi
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## Extra Documents
+
+- [Full Abstract](docs/Abstract.md)
+- [Model Explanation](docs/ModelExplanation.md)
