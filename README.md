@@ -1,5 +1,4 @@
 # Breast-cancer-detection-using-hybrid-ML-algorithms
-This project uses the WBCD dataset to predict breast cancer using PCA for dimensionality reduction and SVM for classification, achieving 96% accuracy. Preprocessing techniques like normalization and outlier removal were applied to enhance performance and identify key cancer risk features.
 Breast cancer is a leading cause of cancer-related deaths in women globally. Early detection significantly improves survival rates. This project uses the Wisconsin Breast Cancer Dataset (WBCD) to classify tumors as benign (non-cancerous) or malignant (cancerous) using a hybrid machine learning approach.
 
 Key methods include:
