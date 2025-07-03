@@ -9,6 +9,8 @@ Classification using Support Vector Machine (SVM), achieving an accuracy of 96%.
 
 The model identifies key risk indicators like cell shape, mitosis, and chromatin structure. Additional factors like age and family history are acknowledged as important. This study highlights the potential of machine learning to support early diagnosis and improve patient outcomes.
 
+---
+
 ## How to Run
 
 1. Open the notebook: `breast_cancer_detection.ipynb` in [Google Colab](https://colab.research.google.com/) or Jupyter
@@ -62,3 +64,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 - [Full Abstract](docs/Abstract.md)
 - [Model Explanation](docs/ModelExplanation.md)
+- [Results](docs/Results.md)
